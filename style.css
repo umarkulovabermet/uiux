@@ -1,0 +1,739 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body{
+background: #000;
+width: 1440px;
+height: 6332px;  
+}
+.container{
+    width: 1440px;
+height: 6332px;
+margin: 0 auto;
+}
+.header {
+    border-radius: 12px;
+border: 3px solid #F00;
+background: rgba(121, 116, 116, 0.10);
+backdrop-filter: blur(7.5px);
+width: 1170px;
+height: 62px;
+flex-shrink: 0;
+margin: 4pc 15pc;
+text-align: center;
+}
+.header img {
+margin-right: 35pc;
+}
+ .header a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+/* display: flex; */
+align-items: center;}
+.header button {
+    color: #FFF;
+font-size: 24px;
+font-weight: 700;
+border-radius: 7px;
+border: 3px solid #FFF;
+width: 209px;
+height: 46px;
+ flex-shrink: 0;
+} 
+.hero {
+    border-radius: 477px;
+background: #D81010;
+filter: blur(150px);
+width: 477px;
+height: 477px;
+flex-shrink: 0;
+position: absolute;
+top: 22pc;
+left: 36pc;
+}
+.hero-text h1 {
+    color: #ff0a0a;
+    position: absolute;
+top: 22pc;
+left: 33pc; 
+color: #FFF;
+font-family: Fira Sans;
+font-size: 144px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 9.36px;
+}
+.hero-text h3 {
+    color: #FFF;
+font-family: Fira Sans;
+font-size: 33px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.145px;
+position: absolute;
+top: 33pc;
+left: 36pc;
+}
+.hero-text button {
+    color: #000;
+font-family: Fira Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.91px;
+border-radius: 27px;
+background: #FFF;
+width: 160px;
+height: 40px;
+flex-shrink: 0;
+position: absolute;
+top: 39pc;
+left: 45pc;
+border: none;
+}
+.hero-text p {
+    color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.56px;
+position: absolute;
+top: 45pc;
+left: 32pc;
+}
+.user {
+    background: #F00;
+    width: 180px;
+height: 3px;
+position: absolute;
+top: 70pc;
+left: 45pc;
+}
+.user-icon {
+    position: absolute;
+top: 69pc;
+left: 15pc;
+}
+.user-icon h3 {
+    color: #FFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+margin: -2pc -2pc;
+}
+.user-icon p {
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 1.56px;
+margin: 4pc 1pc;
+}
+.disain img {
+  position: absolute;
+  top: 90pc;
+  left: 20pc;
+}
+.disain h5 {
+    color: #FFF;
+font-family: Fira Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.56px;
+position: absolute;
+top: 103pc;
+left: 24pc;
+}
+.disain-ic {
+    background: #F00;
+    width: 94.085px;
+height: 2px;
+position: absolute;
+top: 105pc;
+left: 23pc;
+}
+
+.alek img {
+    position: absolute;
+    top: 90pc;
+    left: 47pc;
+  }
+  .alek h5 {
+      color: #FFF;
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.56px;
+  position: absolute;
+  top: 103pc;
+  left: 50pc;
+  }
+  .alek-icon {
+    background: #F00;
+    width: 94.085px;
+height: 2px;
+position: absolute;
+top: 105pc;
+left: 50pc;
+}
+.mirirna img {
+    position: absolute;
+    top: 90pc;
+    left: 69pc;
+}
+.mirirna h5 {
+    color: #FFF;
+font-family: Fira Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.56px;
+position: absolute;
+top: 103pc;
+left: 72pc;
+}
+.mirirna-icon {
+  background: #F00;
+  width: 94.085px;
+height: 2px;
+position: absolute;
+top: 105pc;
+left: 72pc;
+}
+.reddis h3 {
+    color: #FFF;
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 1.95px;
+position: absolute;
+top: 115pc;
+left: 25pc;
+}
+.reddis-icon {
+    background: #F00;
+    width: 232px;
+height: 3px;
+position: absolute;
+top: 113pc;
+left: 23pc;
+}
+.reddis p {
+    color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+position: absolute;
+top: 119pc;
+left: 15pc;
+}
+.disain-1-icon {
+    background: #F00;
+    width: 232px;
+    height: 3px;
+  position: absolute;
+  top: 113pc;
+  left: 65pc;
+}
+.disain-1 h3 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.95px;
+    position: absolute;
+    top: 115pc;
+    left: 68pc;
+}
+.disain-1 p {
+    color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+position: absolute;
+top: 119pc;
+left: 58pc;
+}
+.disain-1 button{
+    color: #000;
+font-family: Fira Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.91px;
+border-radius: 27px;
+background: #FFF;
+width: 176px;
+height: 44px;
+flex-shrink: 0;
+position: absolute;
+top: 129pc;
+left: 45pc;
+}
+.icon {
+    position: absolute;
+    top: 114pc;
+    left: 10pc;
+    right: 5pc;
+}
+.portvilio h3 {
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+position: absolute;
+top: 159pc;
+left: 45pc;
+}
+.portvilio p {
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+top: 175pc;
+left: 45pc;
+}
+.portvilio button {
+    position: absolute;
+top: 185pc;
+left: 55pc;
+color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+border-radius: 51px;
+background: #F00;
+width: 206px;
+height: 57px;
+flex-shrink: 0;
+border: none;
+}
+.portivilio-icon {
+    border-radius: 477px;
+background: #D81010;
+filter: blur(150px);
+width: 477px;
+height: 477px;
+flex-shrink: 0;
+position: absolute;
+top: 170pc;
+left: 15pc;
+}
+.portvilio img {
+    position: absolute;
+    top: 170pc;
+    left: 15pc;
+}   
+.portivilio-text {
+    border-radius: 477px;
+background: #D81010;
+filter: blur(150px);
+width: 477px;
+height: 477px;
+flex-shrink: 0;
+position: absolute;
+top: 225pc;
+left: 55pc;
+}
+.portivilio-img {
+    position: absolute;
+    top: 225pc;
+    left: 55pc;  
+}
+.portivilio-img button {
+    position: absolute;
+top: 15pc;
+left: -35pc;
+color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+border-radius: 51px;
+background: #F00;
+width: 206px;
+height: 57px;
+flex-shrink: 0;
+border: none;
+}
+.portivilio-img p {
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+position: absolute;
+top: 8pc;
+left: -40pc;
+}
+.hour {
+    border-radius: 477px;
+background: #D81010;
+filter: blur(150px);
+width: 477px;
+height: 477px;
+flex-shrink: 0;
+position: absolute;
+top: 268pc;
+left: 13pc;
+}
+.hour-text img {
+    position: absolute;
+    top: 269pc;
+    left: 13pc;  
+}
+.hour-text p {
+    position: absolute;
+top: 278pc;
+left: 45pc; 
+color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px
+}
+.hour-text button {
+    color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+border-radius: 51px;
+background: #F00;
+width: 206px;
+height: 57px;
+flex-shrink: 0;
+position: absolute;
+top: 285pc;
+left: 53pc;  
+border: none;
+}
+.web {
+    border-radius: 477px;
+background: #D81010;
+filter: blur(150px);
+width: 477px;
+height: 477px;
+flex-shrink: 0;
+position: absolute;
+top: 305pc;
+left: 53pc; 
+}
+.advance img {
+    position: absolute;
+    top: 307pc;
+    left: 54pc;    
+}
+.advance p {
+    position: absolute;
+top: 316pc;
+left: 15pc; 
+color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px
+}
+.advance button {
+    color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+border-radius: 51px;
+background: #F00;
+width: 206px;
+height: 57px;
+flex-shrink: 0;
+position: absolute;
+top: 322pc;
+left: 23pc;  
+border: none;
+}
+.advance-btn {
+    color: #000;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.91px;
+width: 176px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 27px;
+background: #FFF;
+text-align: center;
+color: #000;
+font-family: Fira Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.91px; 
+position: absolute;
+top: 340pc;
+left: 43pc;  
+}
+.advance-img {
+    position: absolute;
+    top: 328pc;
+    left: 1pc;
+}
+.sms h4 {
+    color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.6px;
+position: absolute;
+top: 370pc;
+left: 47pc;
+}
+.sms img {
+    position: absolute;
+    top: 379pc;
+    left: 8pc;
+}
+.sms-img {
+    position: absolute;
+    top: 378pc;
+    left: 48pc;
+}
+.sms-1 {
+    position: absolute;
+    top: 378pc;
+    left: 19pc;
+}
+.sms-icon {
+    position: absolute;
+    top: 407pc;
+    left: 50pc;
+}
+.sms-btn{
+    color: #000;
+font-family: Fira Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.91px;
+width: 176px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 27px;
+background: #FFF;
+margin: 5pc -5pc;
+}
+.footer h2 {
+    color: #FFF;
+text-align: center;
+font-family: Fira Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.6px;
+position: absolute;
+top: 430pc;
+left: 40pc;
+}
+.footer h4 {
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+position: absolute;
+top: 440pc;
+left: 30pc;
+}
+.footer button {
+    color: #B7B1B1;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.17px;
+border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+width: 370px;
+height: 75px;
+flex-shrink: 0;
+position: absolute;
+top: 443pc;
+left: 29pc;
+}
+.footer-text h4 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.17px;
+    position: absolute;
+    top: 440pc;
+    left: 57pc;
+}
+.footer-text button {
+    border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+width: 370px;
+height: 75px;
+flex-shrink: 0;
+position: absolute;
+top: 443pc;
+left: 56pc;
+color: #B7B1B1;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.17px;
+}
+.footer-sms h4 {
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+position: absolute;
+top: 457pc;
+left: 30pc;
+}
+.footer-sms button {
+    border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+width: 812px;
+height: 133px;
+flex-shrink: 0;
+position: absolute;
+top: 459pc;
+left: 29pc;
+color: #B7B1B1;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.17px;
+}
+.footer-sms h3 {
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.56px;
+position: absolute;
+top: 468.6pc;
+left: 29pc;
+}
+
+.footer-icon {
+    position: absolute;
+top: 469pc;
+left: 39pc;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.17px;
+display: flex;
+align-items: center;
+}
+
+.footer-zvonoc {
+    position: absolute;
+    top: 468pc;
+    left: 46pc;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.17px;
+    display: flex;
+    align-items: center;
+}
+.footer-zvonoc button {
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.17px;
+width: 188px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #FFF;
+margin: 3pc -32pc;
+}
+.footer-img {
+    position: absolute;
+    top: 480pc;
+    left: 29pc;
+}
